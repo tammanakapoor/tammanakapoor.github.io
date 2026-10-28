@@ -1,7 +1,7 @@
 /* Fieldnotes extends the existing case-study paper, typography and chapter rows. */
 .fieldnotes-case .case-block > h2 { margin:0 0 14px; font:600 13px/1.5 var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--accent); }
 .fieldnotes-motto { margin:0 0 24px; font-size:28px; color:var(--accent); }
-.fieldnotes-cover { max-width:100%; }
+.fieldnotes-cover { width:min(100%, 340px); max-width:100%; justify-self:center; align-self:start; }
 .fieldnotes-cover figcaption { font-size:clamp(15px,1.8vw,19px); }
 .fieldnotes-details { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin:0 0 30px; padding:25px 0; border-block:1px solid var(--line); }
 .fieldnotes-details dt { font:500 10px/1.6 var(--mono); text-transform:uppercase; letter-spacing:.08em; color:var(--accent); margin-bottom:8px; }
